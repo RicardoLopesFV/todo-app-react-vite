@@ -1,11 +1,19 @@
-import { GlobalStyle } from "./global"
+import Categories from "./containers/Aside"
+import { Container, GlobalStyle } from "./global"
 
 function App() {
   return (
-    <div>
+    <>
       <GlobalStyle />
-      App
-    </div>
+      <Container>
+        <aside>
+          <Categories />
+        </aside>
+        <main>
+
+        </main>
+      </Container>
+    </>
   )
 }
 
